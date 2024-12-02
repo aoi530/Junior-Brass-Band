@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>JUNIOR Brass Band</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--googleフォント -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/main.css">
+    <!-- slickを使うのに必要なcssファイル2つ -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+</head>
+
+<body>
+    <header class="individual-header">
+        <h1><a href="index.html">JUNIOR<br>Brass Band</a></h1>
+        <div class="toggle_btn">
+            <a href="#mask"><video src="img/saxophone.anime.mp4" loop autoplay muted playsinline></video></a>
+        </div>
+        <div id="mask">
+            <nav>
+                <ul>
+                    <li><a href="#">TOPに戻る</a></li>
+                    <li>
+                        <a href="#about">ABOUT<br><span>JUNIOR Brass Bandについて</span></a>
+                    </li>
+                    <li><a href="#introduction">活動紹介</a></li>
+                    <li><a href="#schedule">年間計画</a></li>
+                    <li><a href="voice.html">団員の声</a></li>
+                    <li><a href="recruit.html">団員募集</a></li>
+                    <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contact">
+            <div class="container">
+                <h3 class="contact-title">お問い合わせ</h3>
+                <p>見学、入団応募及び入団に関するお問い合わせ,<br>演奏依頼、取材、その他一般的なお問い合わせはこちらから承ります。</p>
+                <div class="contact-inner">
+                    <form action="#" method="post">
+                        <ul class="radio-btn">
+                            <li><input type="radio" id="choice1" name="choice" value="1"><label for="choice1">見学</label></li>
+                            <li><input type="radio" id="choice2" name="choice" value="2"><label for="choice2">入団応募</label></li>
+                            <li><input type="radio" id="choice3" name="choice" value="3"><label for="choice3">演奏依頼</label></li>
+                            <li><input type="radio" id="choice4" name="choice" value="4"><label for="choice4">取材</label></li>
+                            <li><input type="radio" id="choice5" name="choice" value="5"><label for="choice5">その他</label></li>
+                        </ul>
+                        <dl>
+                            <dt><label for="name">氏名</label></dt>
+                            <dd><input type="text" id="name" name="氏名"></dd>
+                            <dt><label for="address">住所</label></dt>
+                            <dd><input type="text" id="address" name="住所"></dd>
+                            <dt><label for="phone-number">電話番号</label></dt>
+                            <dd><input type="text" id="phone-number" name="電話番号"></dd>
+                            <dt><label for="email">メールアドレス</label></dt>
+                            <dd><input type="email" id="email" name="メールアドレス"></dd>
+                            <dt><label for="message">問い合わせ内容</label></dt>
+                            <dd><textarea id="message" name="問い合わせ内容"></textarea></dd>
+                        </dl>
+                        <div class="submit-btn">
+                            <input type="submit" value="送信">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- slickを使うのに必要なjsファイル -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
