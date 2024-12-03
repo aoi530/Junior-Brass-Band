@@ -1047,6 +1047,18 @@ label {
     }
 }
 
+/* 必須マーク */
+.required::after {
+    content: "必須";
+    color: #FAFDF0;
+    background-color: #ee2b04;
+    font-size: 0.8rem;
+    padding: 4px 20px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
 dl {
     width: 600px;
     margin: 0 auto;
