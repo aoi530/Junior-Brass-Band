@@ -354,7 +354,7 @@ h2 {
     background-color: #EB5132;
     padding-block: 7%;
     border-radius: 20px;
-    z-index: 20;
+    z-index: 30;
     transition: all 0.5s;
 }
 
